@@ -18,7 +18,7 @@ console.log(etaPasseggero);
 
 var costoKm = 0.21;
 
-var prezzoIntero = kmTotali * costoKm;
+var prezzoIntero = parseFloat((kmTotali * costoKm).toFixed(2));
 
 console.log(prezzoIntero);
 
@@ -44,6 +44,15 @@ if (etaPasseggero < 18){
   prezzoFinale = prezzoIntero;
 }
 
+// prezzo arrotondato al secondo decimale
+
+var arrotondato = parseFloat(prezzoFinale.toFixed(2));
+
+console.log('ARROTONDATO', arrotondato)
+
 // generazione password
 
-document.getElementById('costo_biglietto').innerHTML="Il costo del biglietto è: " + prezzoFinale + " euro";
+document.getElementById('eta').innerHTML="Età passeggero: " + etaPasseggero + " anni";
+document.getElementById('km').innerHTML="Km da percorrere: " + kmTotali;
+document.getElementById('prezzoIntero').innerHTML="Il costo del biglietto intero è: " + prezzoIntero + " euro";
+document.getElementById('prezzoFinale').innerHTML="Il costo del biglietto scontato è: " + arrotondato + " euro";

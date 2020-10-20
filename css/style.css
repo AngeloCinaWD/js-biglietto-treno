@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  background-image: url("https://i0.wp.com/www.linkiesta.it/wp-content/uploads/2020/03/6220ec03-16a6-4be0-89c1-8a426608d5d4_large.jpg?fit=1200%2C799&ssl=1");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sfondo {
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
