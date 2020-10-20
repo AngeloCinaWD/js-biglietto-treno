@@ -26,13 +26,13 @@ console.log(prezzoIntero);
 
 var scontoMinorenni = prezzoIntero * 0.2;
 
-console.log('SCONTOMINORENNI', scontoMinorenni)
+console.log('SCONTOMINORENNI', scontoMinorenni);
 
 // sconto 40% per gli over 65
 
 var scontoOver65 = prezzoIntero * 0.4;
 
-console.log('scontoOver65', scontoOver65)
+console.log('scontoOver65', scontoOver65);
 
 // applicazione eventuale sconto
 
@@ -48,7 +48,7 @@ if (etaPasseggero < 18){
 
 var arrotondato = parseFloat(prezzoFinale.toFixed(2));
 
-console.log('ARROTONDATO', arrotondato)
+console.log('ARROTONDATO', arrotondato);
 
 // generazione password
 
